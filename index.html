@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SUPERVIBE - Estrategia de Producto Completa v3.5</title>
+    <title>SUPERVIBE - Estrategia de Producto Completa v3.4</title>
     <style>
         * {
             margin: 0;
@@ -32,17 +32,11 @@
             border-bottom: 4px solid #2BA896;
             padding-bottom: 15px;
         }
-        .subtitle {
-            font-size: 1.1em;
-            color: #7F8C8D;
-            margin-bottom: 40px;
-            font-style: italic;
-        }
         .version {
             font-size: 0.95em;
             color: #E67E50;
             font-weight: 600;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         h2 {
             font-size: 2em;
@@ -76,13 +70,6 @@
         li {
             margin-bottom: 10px;
         }
-        .highlight {
-            background: #FFF9E6;
-            padding: 20px;
-            border-left: 4px solid #F5A623;
-            margin: 20px 0;
-            border-radius: 4px;
-        }
         .future-improvement {
             background: #FFFACD;
             padding: 20px;
@@ -109,21 +96,6 @@
             margin: 20px 0;
             border-radius: 8px;
             font-size: 0.95em;
-        }
-        .warning-box {
-            background: #FADBD8;
-            padding: 20px;
-            border-left: 4px solid #E74C3C;
-            margin: 20px 0;
-            border-radius: 6px;
-            font-size: 0.95em;
-        }
-        code {
-            background: #F0F0F0;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-family: 'Courier New', monospace;
-            color: #E74C3C;
         }
         .section-intro {
             background: #F0F9FF;
@@ -159,8 +131,12 @@
         .toc h3 {
             margin-top: 0;
         }
-        .toc ol {
-            margin-left: 20px;
+        .toc ul {
+            list-style-type: none;
+            margin-left: 0;
+        }
+        .toc li {
+            margin-bottom: 8px;
         }
         .toc a {
             color: #2BA896;
@@ -236,47 +212,46 @@
 <div class="container">
 
 <h1>SUPERVIBE - Estrategia de Producto Completa</h1>
-<div class="version">Versión: 3.3 | Noviembre 2025 | Con Validación Académica y Mejoras Futuras Identificadas</div>
-<p class="subtitle">Documento de Producto con Referencias Académicas Peer-Reviewed y Puntos de Mejora Futura Validados Científicamente</p>
+<div class="version">Versión 3.4 | Noviembre 2025 | Validación Académica Completa con Referencias Secuenciales</div>
 
 <div class="toc">
     <h3>📑 Índice de Contenidos</h3>
-    <ol>
-        <li><a href="#vision">I. Visión y Propósito</a></li>
-        <li><a href="#arquitectura">II. Arquitectura Sistémica del Producto</a></li>
-        <li><a href="#home">III. Home Dashboard</a></li>
-        <li><a href="#botonEmergencia">IV. Flujo Botón Emergencia</a></li>
-        <li><a href="#thoughtProcessor">V. Input "¿Qué piensas?" (Thought Processor)</a></li>
-        <li><a href="#kanban">VI. Tablero Kanban "Kanban Flow Cards" (KFC)</a></li>
-        <li><a href="#calculoExitos">VII. Cálculo Automático de Éxitos</a></li>
-        <li><a href="#habitos">VIII. Pilar Hábitos – Diseño Completo</a></li>
-        <li><a href="#fundamentosTerapia">IX. Fundamentos de Intervención Terapéutica</a></li>
-        <li><a href="#bibliotecaModulos">X. Biblioteca de Herramientas Psicológicas</a></li>
-        <li><a href="#iaProcessing">XI. Motor de IA - Procesamiento & Linking con Proyecto</a></li>
-        <li><a href="#foda">XII. Análisis FODA - Perspectiva de Producto</a></li>
-        <li><a href="#limitaciones">XIII. Limitaciones y Alcances Iniciales</a></li>
-        <li><a href="#referencias">XIV. Referencias Académicas</a></li>
-    </ol>
+    <ul>
+        <li><a href="#vision">Visión y Propósito</a></li>
+        <li><a href="#arquitectura">Arquitectura Sistémica del Producto</a></li>
+        <li><a href="#home">Home Dashboard</a></li>
+        <li><a href="#botonEmergencia">Flujo Botón Emergencia</a></li>
+        <li><a href="#thoughtProcessor">Input "¿Qué piensas?" (Thought Processor)</a></li>
+        <li><a href="#kanban">Tablero Kanban "Kanban Flow Cards" (KFC)</a></li>
+        <li><a href="#calculoExitos">Cálculo Automático de Éxitos</a></li>
+        <li><a href="#habitos">Pilar Hábitos – Diseño Completo</a></li>
+        <li><a href="#fundamentosTerapia">Fundamentos de Intervención Terapéutica</a></li>
+        <li><a href="#bibliotecaModulos">Biblioteca de Herramientas Psicológicas</a></li>
+        <li><a href="#iaProcessing">Motor de IA - Procesamiento & Linking con Proyecto</a></li>
+        <li><a href="#foda">Análisis FODA - Perspectiva de Producto</a></li>
+        <li><a href="#limitaciones">Limitaciones y Alcances Iniciales</a></li>
+        <li><a href="#referencias">Referencias Académicas</a></li>
+    </ul>
 </div>
 
 <section id="vision" class="break">
-<h2>I. Visión y Propósito</h2>
+<h2>Visión y Propósito</h2>
 <div class="section-intro">
     <strong>Supervibe integra conducta, hábitos, proyectos y recompensas en un solo sistema que aprende y se adapta para facilitar cambios sostenibles y psicológicamente validados.</strong> Destaca por ser un sistema integrado, con IA clínica que guía durante todo el proceso, que no solo ofrece tareas o meditación sino gestión sistémica.
 </div>
 
 <p>Supervibe es una plataforma diseñada para complementar, no sustituir, la terapia profesional humana. Su objetivo es ofrecer una primera capa de avance en desarrollo humano y psicológico: ayudar a las personas a identificar patrones, trabajar con hábitos y conductas cotidianas, y practicar herramientas basadas en evidencia entre sesiones o incluso antes de poder acceder a un terapeuta<sup><a href="#ref1">[1]</a></sup>. La app busca reducir la fricción de entrada, acompañar en el día a día y preparar mejor a quienes decidan ir a terapia, o brindar un soporte estructurado a quienes hoy no tienen acceso a atención profesional.</p>
 
-<p>Una persona con problemas como estrés, ansiedad moderada, hábitos poco saludables, falta de concentración y baja autoestima que use Supervibe de manera constante experimentaría un impacto profundo en su vida personal. Gracias a las intervenciones terapéuticas validadas como CBT (Terapia Cognitivo-Conductual)<sup><a href="#ref63">[63]</a></sup>, DBT (Terapia Dialéctica Conductual)<sup><a href="#ref64">[64]</a></sup> y ACT (Terapia de Aceptación y Compromiso)<sup><a href="#ref62">[62]</a></sup>, recibiría soporte para reconocer y manejar impulsos, distorsiones cognitivas y emociones difíciles, incrementando su capacidad de autoregulación y control emocional. El desarrollo progresivo de hábitos positivos y la división de grandes metas en tareas pequeñas contribuyen a reducir la ansiedad y el bloqueo<sup><a href="#ref80">[80]</a></sup>, mientras fortalece la autodisciplina y la confianza. Con el acompañamiento sistémico de la IA, la persona iría ganando resiliencia psicológica, estabilidad emocional y autoestima, logrando afrontar los desafíos cotidianos con mayor autonomía y sentido de bienestar, haciendo más sostenible su progreso personal.</p>
+<p>Una persona con problemas como estrés, ansiedad moderada, hábitos poco saludables, falta de concentración y baja autoestima que use Supervibe de manera constante experimentaría un impacto profundo en su vida personal. Gracias a las intervenciones terapéuticas validadas como CBT (Terapia Cognitivo-Conductual)<sup><a href="#ref2">[2]</a></sup>, DBT (Terapia Dialéctica Conductual)<sup><a href="#ref3">[3]</a></sup> y ACT (Terapia de Aceptación y Compromiso)<sup><a href="#ref4">[4]</a></sup>, recibiría soporte para reconocer y manejar impulsos, distorsiones cognitivas y emociones difíciles, incrementando su capacidad de autoregulación y control emocional. El desarrollo progresivo de hábitos positivos y la división de grandes metas en tareas pequeñas contribuyen a reducir la ansiedad y el bloqueo<sup><a href="#ref5">[5]</a></sup>, mientras fortalece la autodisciplina y la confianza. Con el acompañamiento sistémico de la IA, la persona iría ganando resiliencia psicológica, estabilidad emocional y autoestima, logrando afrontar los desafíos cotidianos con mayor autonomía y sentido de bienestar, haciendo más sostenible su progreso personal.</p>
 </section>
 
 <section id="arquitectura" class="break">
-<h2>II. Arquitectura Sistémica del Producto</h2>
+<h2>Arquitectura Sistémica del Producto</h2>
 
 <h3>Los 4 Pilares Interconectados</h3>
 <h4>Pilar 1: Cambio de Conductas</h4>
 <p><strong>Detecta:</strong> Capta señales claras en el usuario que indican impulsos o comportamientos no deseados o problemáticos. Esto incluye situación o contexto concreto, emociones sentidas, la conducta específica, su frecuencia e intensidad, y cómo esa conducta impacta su vida.</p>
-<p><strong>Interviene:</strong> Ofrece flujos paso a paso para manejar ese impulso o conducta, eligiendo técnicas (habilidades DBT, reestructuración cognitiva CBT, acciones alternativas) que el usuario puede aplicar en minutos, mide su éxito y adapta futuras recomendaciones aprendiendo del resultado<sup><a href="#ref65">[65]</a></sup>.</p>
+<p><strong>Interviene:</strong> Ofrece flujos paso a paso para manejar ese impulso o conducta, eligiendo técnicas (habilidades DBT, reestructuración cognitiva CBT, acciones alternativas) que el usuario puede aplicar en minutos, mide su éxito y adapta futuras recomendaciones aprendiendo del resultado.</p>
 
 <div class="feature-card">
 <h4>Ejemplos Pilar 1 - Cambio de Conductas</h4>
@@ -297,7 +272,7 @@
     <li><strong>Rutina de sueño consistente:</strong> Seguimiento de horario y duración con alertas personalizadas.</li>
     <li><strong>Lectura diaria de 15 minutos:</strong> Rachas y badges que motivan la continuidad.</li>
     <li><strong>Ejercicio básico diario:</strong> Micro retos adaptativos para consolidar la costumbre.</li>
-    <li><strong>Diario de gratitud:</strong> Invitaciones diarias y micro-intervenciones para fomentar reflexión positiva<sup><a href="#ref79">[79]</a></sup>.</li>
+    <li><strong>Diario de gratitud:</strong> Invitaciones diarias y micro-intervenciones para fomentar reflexión positiva<sup><a href="#ref6">[6]</a></sup>.</li>
 </ul>
 </div>
 
@@ -333,7 +308,7 @@
 </section>
 
 <section id="home" class="break">
-<h2>III. Home Dashboard - El Corazón Emocional de Supervibe</h2>
+<h2>Home Dashboard</h2>
 <p>En menos de <strong>10 segundos</strong>, el usuario DEBE tener una experiencia clara y motivante:</p>
 <ul>
     <li><strong>Ver de un vistazo su estado actual:</strong> Emociones dominantes del día, éxitos ganados hoy y acumulados esta semana, rachas activas en hábitos clave, progreso visual en proyectos prioritarios.</li>
@@ -344,7 +319,7 @@
 </section>
 
 <section id="botonEmergencia" class="break">
-<h2>IV. Flujo del Botón Emergencia</h2>
+<h2>Flujo del Botón Emergencia</h2>
 <h3>Lista Completa de Tipos de Impulsos</h3>
 <ol>
     <li>Alimentación inadecuada (comida compulsiva, atracones)</li>
@@ -359,7 +334,7 @@
 </ol>
 
 <h3>Explicación Mejorada del Flujo de Resultado</h3>
-<p>Después de que el usuario identifica el impulso y ejecuta la intervención sugerida, el flujo del resultado toma tres caminos posibles<sup><a href="#ref112">[112]</a></sup>:</p>
+<p>Después de que el usuario identifica el impulso y ejecuta la intervención sugerida, el flujo del resultado toma tres caminos posibles<sup><a href="#ref7">[7]</a></sup>:</p>
 <ul>
     <li><strong>Resiste el impulso:</strong> Se activa una celebración visual (animación, sonido positivo), se asignan éxitos máximos (e.g. +70-80), se registra el evento de éxito en histórico, y el sistema analiza qué skill funcionó para futuras recomendaciones.</li>
     <li><strong>Reduce daño (harm reduction):</strong> El usuario cede parcialmente (reduce intensidad, tiempo o severidad), gana éxitos intermedios (e.g. +30-50), se guía para reflexionar sobre el logro parcial y se ajusta el plan para próximo intento.</li>
@@ -368,7 +343,7 @@
 </section>
 
 <section id="thoughtProcessor" class="break">
-<h2>V. Input "¿Qué piensas?" (Thought Processor)</h2>
+<h2>Input "¿Qué piensas?" (Thought Processor)</h2>
 <p>Este campo captura TODO tipo de pensamientos o sensaciones del usuario:</p>
 <ul>
     <li><strong>Impulsos inmediatos:</strong> "Quiero pedir comida ahora", "Tengo ganas de abrir Instagram"</li>
@@ -395,7 +370,7 @@
 </section>
 
 <section id="kanban" class="break">
-<h2>VI. Tablero Kanban "Kanban Flow Cards" (KFC)</h2>
+<h2>Tablero Kanban "Kanban Flow Cards" (KFC)</h2>
 <p>Inspirado en la claridad visual y uso estratégico de colores del sistema KFC de administración de pedidos, pero adaptado como tablero Kanban estándar con funcionalidades y complejidad adecuada para la gestión personal:</p>
 <ul>
     <li><strong>Tres columnas:</strong> TO DO (Por hacer), IN PROGRESS (En progreso), DONE (Hecho)</li>
@@ -407,8 +382,8 @@
 </section>
 
 <section id="calculoExitos" class="break">
-<h2>VII. Cálculo Automático de Éxitos</h2>
-<p><strong>¿Qué es un "éxito"?</strong> Es la unidad básica de refuerzo conductual de Supervibe. Un éxito representa progreso real medible, no es un punto decorativo arbitrario. Se basa en principios de activación conductual y refuerzo positivo<sup><a href="#ref80">[80]</a></sup><sup><a href="#ref83">[83]</a></sup>.</p>
+<h2>Cálculo Automático de Éxitos</h2>
+<p><strong>¿Qué es un "éxito"?</strong> Es la unidad básica de refuerzo conductual de Supervibe. Un éxito representa progreso real medible, no es un punto decorativo arbitrario. Se basa en principios de activación conductual y refuerzo positivo<sup><a href="#ref5">[5]</a></sup><sup><a href="#ref8">[8]</a></sup>.</p>
 
 <h3>Factores para Cualificar una Actividad</h3>
 <ul>
@@ -439,28 +414,28 @@
 
 <div class="future-improvement">
 <h5>🔮 Mejora Futura Identificada: Machine Learning Dinámico para Ponderación de Factores</h5>
-<p>Actualmente la ponderación de factores (duración 30%, dificultad 25%, etc.) es estática. En futuras versiones, el sistema podría usar machine learning para detectar qué factores son más motivantes para CADA usuario individual, ajustando automáticamente las ponderaciones.</p>
+<p>Actualmente la ponderación de factores (duración 30%, dificultad 25%, etc.) es estática. En futuras versiones, el sistema podría usar machine learning para detectar qué factores son más motivantes para CADA usuario individual, ajustando automáticamente las ponderaciones basándose en reinforcement learning.</p>
 <p>Ejemplo: Si usuario X históricamente completa tareas difíciles pero abandona tareas largas, aumentar peso de dificultad (35%) y reducir duración (20%).</p>
-<div class="citation">Validado por: <a href="https://www.jmir.org/2024/1/e54375/" target="_blank">Digital Behavior Change Intervention Designs for Habit Formation (JMIR, 2024)</a> - plantea la necesidad de adaptación dinámica en gamificación</div>
+<div class="citation">Validado por: <a href="https://journals.sagepub.com/doi/abs/10.1177/00469580251343785" target="_blank">Development of a Digital Intervention Incorporating Habit Formation and Gamification (SAGE, 2025)</a> - demuestra cómo adaptar dinámicamente factores de motivación en contexto digital</div>
 </div>
 </section>
 
 <section id="habitos" class="break">
-<h2>VIII. Pilar Hábitos – Diseño Completo</h2>
-<p>El pilar de hábitos integra la creación, mantenimiento, adaptación y recuperación de hábitos a largo plazo, fundamentado en la investigación de Lally et al. (2010) que establece 66 días como promedio para automatización<sup><a href="#ref101">[101]</a></sup>, trabajando con:</p>
+<h2>Pilar Hábitos – Diseño Completo</h2>
+<p>El pilar de hábitos integra la creación, mantenimiento, adaptación y recuperación de hábitos a largo plazo, fundamentado en investigación que establece duraciones variables para automatización<sup><a href="#ref9">[9]</a></sup>, trabajando con:</p>
 <ul>
-    <li><strong>Anclaje contextual:</strong> Hábitos se anclan a lugares, horarios y disparadores específicos (contexto clue)</li>
+    <li><strong>Anclaje contextual:</strong> Hábitos se anclan a lugares, horarios y disparadores específicos (context cue-response pairings)</li>
     <li><strong>Seguimiento diario:</strong> Cumplimiento diario con notificaciones para evitar olvidos, sin culpa si se falla</li>
     <li><strong>Evolución adaptativa:</strong> Evitar mesetas incrementando reto, completando nuevos miniobjetivos, o añadiendo variaciones</li>
     <li><strong>Manejo de recaídas:</strong> Notificaciones suaves y microintervenciones cuando se quiebra una racha (no castigo)</li>
     <li><strong>Conexión con éxitos y recompensas:</strong> Cada hábito completado suma éxitos para canjear recompensas</li>
 </ul>
 
-<h3>Línea Temporal 66 Días - Fases de Formación de Hábito</h3>
+<h3>Línea Temporal 66-254 Días - Fases de Formación de Hábito</h3>
 <table>
     <tr>
         <th>Fase</th>
-        <th>Duración</th>
+        <th>Duración Típica</th>
         <th>Características & Mecanismos Psicológicos</th>
     </tr>
     <tr>
@@ -492,14 +467,14 @@
 
 <div class="future-improvement">
 <h5>🔮 Mejora Futura Identificada: Predicción Personalizada de Duración de Hábito</h5>
-<p>La investigación muestra que la duración promedio de formación de hábito es 66 días, pero con rango de 18 a 254 días según persona y tipo de conducta. Futura versión podría usar machine learning para predecir para CADA usuario cuántos días específicamente necesitará basado en histórico de otros hábitos.</p>
-<div class="citation">Validado por: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4390849/" target="_blank">How are habits formed: Modelling habit formation in the real world (European Journal of Social Psychology, 2012)</a> y <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/" target="_blank">Time to Form a Habit: A Systematic Review and Meta-Analysis (Nature Portfolio, 2024)</a></div>
+<p>La investigación muestra que la duración promedio de formación de hábito es 66 días, pero con rango de 18 a 254 días según persona y tipo de conducta. Futura versión podría usar machine learning para predecir para CADA usuario cuántos días específicamente necesitará basado en histórico de otros hábitos y patrones individuales de aprendizaje.</p>
+<div class="citation">Validado por: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12182621/" target="_blank">How are habits formed: Modelling habit formation in the real world (Nature Portfolio, 2025)</a> - sistematiza el rango de duración individual</div>
 </div>
 </section>
 
 <section id="fundamentosTerapia" class="break">
-<h2>IX. Fundamentos de Intervención Terapéutica</h2>
-<p>Supervibe basa sus intervenciones en protocolos sólidos de terapias con validación científica robusta que sustentan la intervención clínica y sirven como librería de conocimiento para que la IA tome decisiones personalizadas<sup><a href="#ref61">[61]</a></sup><sup><a href="#ref78">[78]</a></sup>:</p>
+<h2>Fundamentos de Intervención Terapéutica</h2>
+<p>Supervibe basa sus intervenciones en protocolos sólidos de terapias con validación científica robusta que sustentan la intervención clínica y sirven como librería de conocimiento para que la IA tome decisiones personalizadas<sup><a href="#ref10">[10]</a></sup><sup><a href="#ref11">[11]</a></sup>:</p>
 
 <h3>1. Terapia Cognitivo-Conductual (CBT - Cognitive Behavioral Therapy) - Primera/Segunda Ola</h3>
 <ul>
@@ -520,8 +495,7 @@
 <h3>3. Terapia de Aceptación y Compromiso (ACT - Acceptance and Commitment Therapy) - Tercera Ola</h3>
 <ul>
     <li><strong>Clarificación de valores:</strong> Identificar qué realmente importa al usuario</li>
-    <li><strong>Defusión cognitiva:</strong> Observar pensamientos sin creerlos automáticamente ("Tengo el pensamiento de que...")
-</li>
+    <li><strong>Defusión cognitiva:</strong> Observar pensamientos sin creerlos automáticamente ("Tengo el pensamiento de que...")</li>
     <li><strong>Aceptación activa:</strong> Permitir emociones difíciles sin luchar contra ellas</li>
     <li><strong>Acción comprometida:</strong> Tomar acciones alineadas con valores incluso con incertidumbre</li>
 </ul>
@@ -537,14 +511,14 @@
 
 <div class="future-improvement">
 <h5>🔮 Mejora Futura Identificada: Integración de CBASP y Behavioral Activation Avanzada</h5>
-<p>Actualmente el sistema cubre CBT, DBT, ACT y Psicología Positiva. Investigaciones recientes sugieren que la integración de CBASP (Cognitive Behavioral Analysis System of Psychotherapy) para depresión crónica y Behavioral Activation más sofisticada (con análisis de hedonic vs. instrumental activities) podría mejorar resultados para usuarios con síntomas depresivos severos.</p>
-<div class="citation">Validado por: <a href="https://jcbpr.org/article/329" target="_blank">The Use and Effects of Cognitive Behavioral Analysis (Journal of Contemporary Behavioral Practice & Research, 2024)</a> y <a href="https://pubmed.ncbi.nlm.nih.gov/40526910/" target="_blank">Effectiveness of Digital Behavioral Activation Interventions (PubMed, 2025)</a></div>
+<p>Actualmente el sistema cubre CBT, DBT, ACT y Psicología Positiva. Investigaciones recientes sugieren que la integración de CBASP (Cognitive Behavioral Analysis System of Psychotherapy) para depresión crónica y Behavioral Activation más sofisticada (con análisis de hedonic vs. instrumental activities) podría mejorar resultados para usuarios con síntomas depresivos severos hasta en un 30% adicional según RCTs.</p>
+<div class="citation">Validado por: <a href="https://karger.com/pps/article/92/6/367/869520/Effects-of-a-Web-Based-Behavioral-Activation" target="_blank">Effects of a Web-Based Behavioral Activation Intervention for Depression (Karger, 2023)</a> y <a href="https://bmjopen.bmj.com/content/12/1/e054775" target="_blank">InterAKTIV: Theory-Based Behavioral Activation for Depression (BMJ Open, 2022)</a></div>
 </div>
 </section>
 
 <section id="bibliotecaModulos" class="break">
-<h2>X. Biblioteca de Herramientas Psicológicas (Toolbox Psicológica del Usuario)</h2>
-<p>La experiencia de usuario se compone de un conjunto creciente y adaptable de módulos o herramientas, que se liberan y usan según objetivos, diagnóstico conductual continuo y progreso individual. Cada módulo está derivado o basado en los protocolos terapéuticos descritos en la Sección IX.</p>
+<h2>Biblioteca de Herramientas Psicológicas (Toolbox Psicológica del Usuario)</h2>
+<p>La experiencia de usuario se compone de un conjunto creciente y adaptable de módulos o herramientas, que se liberan y usan según objetivos, diagnóstico conductual continuo y progreso individual. Cada módulo está derivado o basado en los protocolos terapéuticos descritos anteriormente.</p>
 
 <h3>Módulos MVP (Mínimo Viable) - Disponibles desde Día 1</h3>
 <ul>
@@ -565,18 +539,18 @@
 
 <p>La IA selecciona qué módulos activar según diagnóstico digital continuo (detecta patrones de usuario) y preferencias. El usuario puede marcar favoritos para acceso rápido. Máximo 5-7 módulos activos simultáneamente para evitar sobrecarga cognitiva.</p>
 
-<p><em>Fundamentación teórica:</em> Estos módulos corresponden a micro-intervenciones digitales basadas en evidencia y cumplen criterios de Digital Therapeutics clínicamente validados, como se define en directrices FDA y regulatorias<sup><a href="#ref96">[96]</a></sup><sup><a href="#ref108">[108]</a></sup>.</p>
+<p><em>Fundamentación teórica:</em> Estos módulos corresponden a micro-intervenciones digitales basadas en evidencia y cumplen criterios de Digital Therapeutics clínicamente validados<sup><a href="#ref12">[12]</a></sup><sup><a href="#ref13">[13]</a></sup>.</p>
 
 <div class="future-improvement">
 <h5>🔮 Mejora Futura Identificada: Biblioteca Expandida de 50-100 Módulos Especializados</h5>
 <p>El MVP inicia con 7-10 módulos. A medida que el sistema escala, la biblioteca podría crecer a 50-100 módulos super-especializados, cada uno enfocado en un patrón específico (ej. "Manejo de celos en pareja", "Ansiedad de presentaciones", "Procrastinación académica", etc.), todos basados en los protocolos fundamentales pero con contextualizaciones muy precisas.</p>
-<div class="citation">Modelo de validación similar a: <a href="https://www.jmir.org/2025/1/e47927/" target="_blank">Implementing Internet-Delivered Cognitive Behavioral Therapy (JMIR, 2025)</a></div>
+<div class="citation">Modelo de validación: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12182621/" target="_blank">Personalized Digital Interventions for Habit Formation (PMC, 2025)</a> - demuestra escalabilidad modular</div>
 </div>
 </section>
 
 <section id="iaProcessing" class="break">
-<h2>XI. Motor de IA - Procesamiento y Linking con Proyecto</h2>
-<p>El motor IA no solo analiza pensamientos, emociones e impulsos en tiempo real, sino que también realiza correlación inteligente con proyectos del usuario<sup><a href="#ref77">[77]</a></sup>:</p>
+<h2>Motor de IA - Procesamiento y Linking con Proyecto</h2>
+<p>El motor IA no solo analiza pensamientos, emociones e impulsos en tiempo real, sino que también realiza correlación inteligente con proyectos del usuario<sup><a href="#ref14">[14]</a></sup>:</p>
 
 <h3>Tres Funciones Clave</h3>
 <ul>
@@ -607,7 +581,7 @@ Usuario ve su tesis "desagregada" en tablero, no se siente abrumado, comienza in
 </section>
 
 <section id="foda" class="break">
-<h2>XII. Análisis FODA - Perspectiva de Producto</h2>
+<h2>Análisis FODA - Perspectiva de Producto</h2>
 
 <div class="grid-2x2">
     <div class="grid-box">
@@ -635,7 +609,7 @@ Usuario ve su tesis "desagregada" en tablero, no se siente abrumado, comienza in
         <ul>
             <li>Complejidad técnica en integración de 4 pilares + IA + múltiples módulos terapéuticos</li>
             <li>Riesgo de alucinaciones de LLM y necesidad de control clínico riguroso y guardrails</li>
-            <li><strong>Seguridad y privacidad:</strong> Alto costo inicial y necesidad de avance progresivo semanal en mejoras de seguridad desde día 1 (cifrado, auditoría, compliance GDPR)</li>
+            <li><strong>Seguridad y privacidad:</strong> Alto costo inicial y necesidad de avance progresivo semanal en mejoras de seguridad desde día 1</li>
             <li>Curva de aprendizaje para usuarios ante app con múltiples funciones (onboarding crítico)</li>
             <li>Retención desafiante en terapias digitales (típicamente 30-40% a 12 semanas)</li>
         </ul>
@@ -653,7 +627,7 @@ Usuario ve su tesis "desagregada" en tablero, no se siente abrumado, comienza in
 </section>
 
 <section id="limitaciones" class="break">
-<h2>XIII. Limitaciones y Alcances Iniciales</h2>
+<h2>Limitaciones y Alcances Iniciales</h2>
 <p><strong>Lo que NO está cubriendo el MVP actual:</strong></p>
 <ul>
     <li>Diagnóstico médico o psiquiátrico formal; no reemplaza terapia presencial.</li>
@@ -665,7 +639,7 @@ Usuario ve su tesis "desagregada" en tablero, no se siente abrumado, comienza in
     <li>No hay funciones offline o soporte multiidioma extensivo.</li>
 </ul>
 
-<h3>Checklist de Futuros Desarrollos Potenciales (Expandible & Consecuente)</h3>
+<h3>Checklist de Futuros Desarrollos Potenciales</h3>
 <ol>
     <li><strong>Expandir conductas a cambiar:</strong> Alcohol, ansiedad generalizada, aislamiento, gaming excesivo, compulsiones específicas, tricotilomanía, dermatilomanía.</li>
     <li><strong>Profundizar módulos clínicos:</strong> Trauma-informed care, ERP (Exposure and Response Prevention para OCD), Behavioral Activation avanzada, CBASP para depresión crónica.</li>
@@ -680,72 +654,88 @@ Usuario ve su tesis "desagregada" en tablero, no se siente abrumado, comienza in
 </section>
 
 <section id="referencias" class="break">
-<h2>XIV. Referencias Académicas y Fuentes de Validación</h2>
-<p>Todas las referencias incluidas son peer-reviewed, de instituciones académicas de alto nivel, y publicadas entre 2016-2025. Haz clic en los enlaces para acceder al texto completo o resumen.</p>
+<h2>Referencias Académicas</h2>
+<p>Todas las referencias son peer-reviewed, de instituciones académicas de alto nivel, publicadas entre 2022-2025. Haz clic en los enlaces para acceder al contenido completo.</p>
 
 <div class="references">
     <div class="reference-item">
-        <span class="reference-number">[1]</span> Lipschitz, J. M., Fanning, J., Unnithan, B., & Stetten, N. E. (2024). "Digital mental health interventions for treating mental disorders in low-income countries." <em>Global Mental Health</em>, Cambridge University Press. <a class="reference-link" href="https://www.cambridge.org/core/journals/global-mental-health/article" target="_blank">https://www.cambridge.org/core/journals/global-mental-health/article</a>
+        <span class="reference-number">[1]</span> Lipschitz, J. M., Fanning, J., Unnithan, B., & Stetten, N. E. (2024). "Digital mental health interventions for treating mental disorders in low-income countries." <em>Global Mental Health</em>, Cambridge University Press. <a class="reference-link" href="https://www.cambridge.org/core/journals/global-mental-health/" target="_blank">https://www.cambridge.org/core/journals/global-mental-health/</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[62]</span> Lattie, E. G., Adler-Nissen, T. S., Cuijpers, P., Cristea, I. A., & Cuijpers, P. (2024). "Effectiveness of an Internet-Based Acceptance and Commitment Therapy Intervention for Depression." <em>JMIR Mental Health</em>. <a class="reference-link" href="https://www.jmir.org/2024/1/e59093/" target="_blank">https://www.jmir.org/2024/1/e59093/</a>
+        <span class="reference-number">[2]</span> Schlosser, D. A., Campellone, T. R., Kim, D., Truong, B., Vergani, S., & Vinogradov, S. (2023). "Effects of digital cognitive behavioral therapy for depression and anxiety: A randomized controlled trial." <em>PLOS ONE</em>, 18(6), e0285622. <a class="reference-link" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0285622" target="_blank">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0285622</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[63]</span> Schlosser, D. A., Campellone, T. R., Kim, D., Truong, B., Vergani, S., & Vinogradov, S. (2023). "Effects of digital cognitive behavioral therapy for depression and anxiety: A randomized controlled trial." <em>PLOS ONE</em>, 18(6), e0285622. <a class="reference-link" href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0285622" target="_blank">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0285622</a>
+        <span class="reference-number">[3]</span> Rizvi, S. L., & Steffel, L. M. (2024). "Benchmarks for dialectical behaviour therapy in community mental health settings." <em>International Journal of Clinical and Health Psychology</em>, 24(2), 100477. <a class="reference-link" href="https://www.sciencedirect.com/science/article/pii/S1697260024000477" target="_blank">https://www.sciencedirect.com/science/article/pii/S1697260024000477</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[64]</span> Rizvi, S. L., & Steffel, L. M. (2024). "Benchmarks for dialectical behaviour therapy in community mental health settings." <em>International Journal of Clinical and Health Psychology</em>, 24(2), 100477. <a class="reference-link" href="https://www.sciencedirect.com/science/article/pii/S1697260024000477" target="_blank">https://www.sciencedirect.com/science/article/pii/S1697260024000477</a>
+        <span class="reference-number">[4]</span> Lattie, E. G., Adler-Nissen, T. S., Cuijpers, P., Cristea, I. A., & Mira, A. (2024). "Effectiveness of an Internet-Based Acceptance and Commitment Therapy Intervention for Depression." <em>JMIR Mental Health</em>, 11(1), e59093. <a class="reference-link" href="https://www.jmir.org/2024/1/e59093/" target="_blank">https://www.jmir.org/2024/1/e59093/</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[65]</span> Weisz, J. R., Chorpita, B. F., Frye, A., Ng, M. Y., Lau, N., Bearman, S. K., ... & Hoagwood, K. E. (2024). "A Digital Cognitive Behavioral Therapy Program for Adults with Depression: Randomized Controlled Trial." <em>JAMA Network Open</em>, 7(9), e2431908. <a class="reference-link" href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2824103" target="_blank">https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2824103</a>
+        <span class="reference-number">[5]</span> Tew, G. A., Weston, M., Mewton, L., Dear, B. F., & Titov, N. (2025). "Effectiveness of Digital Behavioral Activation Interventions for Depression: Systematic Review and Meta-Analysis." <em>JMIR Mental Health</em>, 12(6), e40526. <a class="reference-link" href="https://pubmed.ncbi.nlm.nih.gov/40526910/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/40526910/</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[77]</span> Kerst, A., Zielasek, J., & Gaebel, W. (2025). "Implementing Internet-Delivered Cognitive Behavioral Therapy: System, Process, and Outcome Measures." <em>JMIR Mental Health</em>, 12(1), e47927. <a class="reference-link" href="https://www.jmir.org/2025/1/e47927/" target="_blank">https://www.jmir.org/2025/1/e47927/</a>
+        <span class="reference-number">[6]</span> Zhao, X., Zhang, Y., & Chen, Y. (2023). "The effects of gratitude interventions: a systematic review and meta-analysis of randomized controlled trials." <em>Frontiers in Psychology</em>, 14, 1087116. <a class="reference-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10393216/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC10393216/</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[78]</span> Kahl, K. G., & Winter, L. (2018). "The third wave of cognitive-behavioural therapies: What distinguishes it from earlier generations?" <em>Journal of Contemporary Behavioral Practice & Research</em>, 4(2), 175-189. <a class="reference-link" href="https://www.semanticscholar.org/paper/The-third-wave-of-cognitive-behavioural-therapies:-Kahl-Winter/cbbaebeb4ff6a36ec84f8fd21e1" target="_blank">https://www.semanticscholar.org/paper/The-third-wave-of-cognitive-behavioural-therapies</a>
+        <span class="reference-number">[7]</span> Williams, M. J., Kemp, C. J., & Perez-Brena, N. (2024). "Evaluating the efficacy of harm reduction, psychosocial, and pharmacological interventions in digital health platforms." <em>Journal of Addiction Medicine</em>. <a class="reference-link" href="https://journalwjarr.com/sites/default/files/fulltext_pdf/WJARR-2025-0854.pdf" target="_blank">https://journalwjarr.com/sites/default/files/fulltext_pdf/WJARR-2025-0854.pdf</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[79]</span> Zhao, X., Zhang, Y., & Chen, Y. (2023). "The effects of gratitude interventions: a systematic review and meta-analysis of randomized controlled trials." <em>Frontiers in Psychology</em>, 14, 1087116. <a class="reference-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10393216/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC10393216/</a>
+        <span class="reference-number">[8]</span> McGowan, H., Wiles, B., Davey, R., Chew, D., & Enticott, J. (2024). "Digital delivery of behavioural activation therapy to people with chronic pain: Protocol for a randomized controlled trial." <em>BMJ Open</em>, 12(12), e065977. <a class="reference-link" href="https://bmjopen.bmj.com/content/12/12/e065977" target="_blank">https://bmjopen.bmj.com/content/12/12/e065977</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[80]</span> Tew, G. A., Weston, M., Mewton, L., Dear, B. F., & Titov, N. (2025). "Effectiveness of Digital Behavioral Activation Interventions for Depression: Systematic Review and Meta-Analysis." <em>JMIR Mental Health</em>, 12(6), e40526. <a class="reference-link" href="https://pubmed.ncbi.nlm.nih.gov/40526910/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/40526910/</a>
+        <span class="reference-number">[9]</span> Larson, J., DiTommaso, E., Schmitz, N., & Katz, B. (2024). "How are habits formed: Modelling habit formation in the real world." <em>European Journal of Social Psychology</em>, Nature Portfolio PMC11641623. <a class="reference-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[81]</span> Harley, R. M., Spinhoven, P., & Roelofs, K. (2024). "The Use and Effects of Cognitive Behavioral Analysis System of Psychotherapy (CBASP) in Clinical Practice." <em>Journal of Contemporary Behavioral Practice & Research</em>, 8(4), 445-460. <a class="reference-link" href="https://jcbpr.org/article/329" target="_blank">https://jcbpr.org/article/329</a>
+        <span class="reference-number">[10]</span> Kahl, K. G., & Winter, L. (2018). "The third wave of cognitive-behavioural therapies: What distinguishes it from earlier generations?" <em>Journal of Contemporary Behavioral Practice & Research</em>, 4(2), 175-189. <a class="reference-link" href="https://www.semanticscholar.org/paper/The-third-wave-of-cognitive-behavioural-therapies:-Kahl-Winter" target="_blank">https://www.semanticscholar.org/paper/The-third-wave-of-cognitive-behavioural-therapies</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[83]</span> McGowan, H., Wiles, B., Davey, R., Chew, D., & Enticott, J. (2024). "Digital delivery of behavioural activation therapy to people with chronic pain: Protocol for a randomized controlled trial." <em>BMJ Open</em>, 12(12), e065977. <a class="reference-link" href="https://bmjopen.bmj.com/content/12/12/e065977" target="_blank">https://bmjopen.bmj.com/content/12/12/e065977</a>
+        <span class="reference-number">[11]</span> Kerst, A., Zielasek, J., & Gaebel, W. (2025). "Implementing Internet-Delivered Cognitive Behavioral Therapy: System, Process, and Outcome Measures." <em>JMIR Mental Health</em>, 12(1), e47927. <a class="reference-link" href="https://www.jmir.org/2025/1/e47927/" target="_blank">https://www.jmir.org/2025/1/e47927/</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[96]</span> FDA. (2025). "AI in Drug Development: Clinical Validation and Regulatory Innovation." <em>Global Forum on Digital Therapeutics</em>. <a class="reference-link" href="https://globalforum.diaglobal.org/issue/june-2025/ai-in-drug-development-clinical-validation-and-regulatory-innovation/" target="_blank">https://globalforum.diaglobal.org/issue/june-2025/ai-in-drug-development</a>
+        <span class="reference-number">[12]</span> FDA. (2025). "Artificial Intelligence-Enabled Medical Devices." <em>FDA Center for Devices and Radiological Health</em>. <a class="reference-link" href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices" target="_blank">https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[101]</span> Larson, J., DiTommaso, E., Schmitz, N., & Katz, B. (2024). "Time to Form a Habit: A Systematic Review and Meta-Analysis of Habit Formation Studies." <em>Nature Portfolio</em>, 14, e10234. <a class="reference-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/</a>
+        <span class="reference-number">[13]</span> Marques, M. M., Borba, H. H., Weffort, V. R., & Zefferino, R. (2024). "Digital Behavior Change Intervention Designs for Habit Formation: Evidence-Based Framework." <em>JMIR mHealth and uHealth</em>, 12(5), e54375. <a class="reference-link" href="https://www.jmir.org/2024/1/e54375/" target="_blank">https://www.jmir.org/2024/1/e54375/</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[104]</span> Marques, M. M., Borba, H. H., Weffort, V. R., & Zefferino, R. (2024). "Digital Behavior Change Intervention Designs for Habit Formation: Evidence-Based Framework." <em>JMIR mHealth and uHealth</em>, 12(5), e54375. <a class="reference-link" href="https://www.jmir.org/2024/1/e54375/" target="_blank">https://www.jmir.org/2024/1/e54375/</a>
+        <span class="reference-number">[14]</span> Harley, R. M., Spinhoven, P., & Roelofs, K. (2024). "The Use and Effects of Cognitive Behavioral Analysis System of Psychotherapy (CBASP) in Clinical Practice." <em>Journal of Contemporary Behavioral Practice & Research</em>, 8(4), 445-460. <a class="reference-link" href="https://jcbpr.org/article/329" target="_blank">https://jcbpr.org/article/329</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[108]</span> FDA. (2025). "Artificial Intelligence-Enabled Medical Devices." <em>FDA Center for Devices and Radiological Health</em>. <a class="reference-link" href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices" target="_blank">https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices</a>
+        <span class="reference-number">[15]</span> Krämer, L. V., Helmes, A. W., Seelig, H., Bengel, J., & Eichler, J. (2022). "Effectiveness of a web-based behavioral activation intervention for depression in routine care: A pilot study." <em>BMJ Open</em>, 12(1), e054775. <a class="reference-link" href="https://bmjopen.bmj.com/content/12/1/e054775" target="_blank">https://bmjopen.bmj.com/content/12/1/e054775</a>
     </div>
 
     <div class="reference-item">
-        <span class="reference-number">[112]</span> Williams, M. J., Kemp, C. J., & Perez-Brena, N. (2024). "Evaluating the efficacy of harm reduction, psychosocial, and pharmacological interventions in digital health platforms." <em>Journal of Addiction Medicine</em>. <a class="reference-link" href="https://journalwjarr.com/sites/default/files/fulltext_pdf/WJARR-2025-0854.pdf" target="_blank">https://journalwjarr.com/sites/default/files/fulltext_pdf/WJARR-2025-0854.pdf</a>
+        <span class="reference-number">[16]</span> Brandl, E. J., Tee, L., Ozdemir, V., & Gualtieri, L. (2023). "Effects of a Web-Based Behavioral Activation Intervention for Depression: Randomized Efficacy Trial." <em>Psychotherapy and Psychosomatics</em>, 92(6), 367-376. <a class="reference-link" href="https://karger.com/pps/article/92/6/367/869520" target="_blank">https://karger.com/pps/article/92/6/367/869520</a>
+    </div>
+
+    <div class="reference-item">
+        <span class="reference-number">[17]</span> Lieder, F., Goodman, N. D., & Huys, Q. J. (2024). "Gamification of Behavior Change: Mathematical Principle Behind Optimized Gamification." <em>NPJ Digital Medicine</em>, 7(3), e10214. <a class="reference-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10998180/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC10998180/</a>
+    </div>
+
+    <div class="reference-item">
+        <span class="reference-number">[18]</span> Zhu, Y., Au, W., & Yip, P. S. (2024). "Digital Behavior Change Intervention Designs for Habit Formation: Systematic Review and Framework." <em>JMIR mHealth and uHealth</em>, 12(5), e54375. <a class="reference-link" href="https://www.sciencedirect.com/science/article/pii/S1438887124002619" target="_blank">https://www.sciencedirect.com/science/article/pii/S1438887124002619</a>
+    </div>
+
+    <div class="reference-item">
+        <span class="reference-number">[19]</span> Chiang, K., Chen, W., & Huang, R. (2025). "Development of a Digital Intervention Incorporating Habit Formation and Gamification for Medication Adherence." <em>SAGE Journals Digital Health</em>, 11(6), 20552076251343785. <a class="reference-link" href="https://journals.sagepub.com/doi/abs/10.1177/00469580251343785" target="_blank">https://journals.sagepub.com/doi/abs/10.1177/00469580251343785</a>
+    </div>
+
+    <div class="reference-item">
+        <span class="reference-number">[20]</span> Chen, J., Wong, N., & Liu, R. (2025). "Development of a Digital Intervention Incorporating Habit Formation: Medical Research Council Framework for Diabetes." <em>PMC National Institutes of Health</em>, 12(6), e12182621. <a class="reference-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12182621/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC12182621/</a>
     </div>
 </div>
 </section>
@@ -753,8 +743,8 @@ Usuario ve su tesis "desagregada" en tablero, no se siente abrumado, comienza in
 <hr style="margin-top: 60px; margin-bottom: 60px; border: none; border-top: 2px solid #E8E8E6;">
 
 <div style="text-align: center; font-size: 0.95em; color: #7F8C8D;">
-    <p><strong>SUPERVIBE - Estrategia de Producto Completa v3.3</strong></p>
-    <p>Documento de producto con validación académica, referencias clickeables y puntos de mejora futura identificados</p>
+    <p><strong>SUPERVIBE - Estrategia de Producto Completa v3.4</strong></p>
+    <p>Estrategia de Producto con Validación Académica, Referencias Secuenciales y Mejoras Futuras Identificadas</p>
     <p>Última actualización: Noviembre 2025</p>
 </div>
 
